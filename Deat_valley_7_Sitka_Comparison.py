@@ -71,7 +71,7 @@ plt.xlabel("", fontsize=12)
 ax[0].fill_between(dates_death, highs_death, lows_death, facecolor='blue', alpha = 0.1)
 plt.tick_params(axis="both", labelsize=12)
 
-ax[0].fill_between(dates_sitka, highs_sitka, lows_sitka, facecolor='blue', alpha = 0.1)
+ax[1].fill_between(dates_sitka, highs_sitka, lows_sitka, facecolor='blue', alpha = 0.1)
 plt.tick_params(axis="both", labelsize=12)
 
 
